@@ -1,0 +1,33 @@
+.Grid-Container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #03a9f4;
+}
+
+button {
+  min-width: 75px;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #03a9f4;
+}
+
+.danger {
+  background-color: #f44336;
+}
+
+.flex {
+  display: flex;
+}
